@@ -12,48 +12,48 @@ export default function Header() {
 
   const loanItems = {
     homeLoans: [
-      { label: "Best Home Loan Rates", href: "../loans/home-loan" },
-      { label: "Loan Against Property", href: "../loans/loan-against-property" },
-      { label: "NRI Home Loans India", href: "../loans/nri-home-loans" },
-      { label: "Top Up Home Loans", href: "../loans/top-up-home-loan" },
-      { label: "Home Loan Without ITR", href: "../loans/home-loan-without-itr" },
-      { label: "Self Employed Home Loans", href: "../loans/home-loans-for-self-employed" },
-      { label: "Salaried Home Loans", href: "../loans/home-loans-for-salaried" },
-      { label: "Home Loan EMI Calculator", href: "../calculators/home-loan-emi-calculator" },
-      { label: "Home Loan Balance Transfer", href: "../loans/home-loan-balance-transfer" }
+      { label: "Best Home Loan Rates", href: "/loans/home-loan" },
+      { label: "Loan Against Property", href: "/loans/loan-against-property" },
+      { label: "NRI Home Loans India", href: "/loans/nri-home-loans" },
+      { label: "Top Up Home Loans", href: "/loans/top-up-home-loan" },
+      { label: "Home Loan Without ITR", href: "/loans/home-loan-without-itr" },
+      { label: "Self Employed Home Loans", href: "/loans/home-loans-for-self-employed" },
+      { label: "Salaried Home Loans", href: "/loans/home-loans-for-salaried" },
+      { label: "Home Loan EMI Calculator", href: "/calculators/home-loan-emi-calculator" },
+      { label: "Home Loan Balance Transfer", href: "/loans/home-loan-balance-transfer" }
     ],
     otherLoans: [
-      { label: "Personal Loan", href: "../loans/personal-loan" },
-      { label: "Business Loan", href: "../loans/business-loan" }
+      { label: "Personal Loan", href: "/loans/personal-loan" },
+      { label: "Business Loan", href: "/loans/business-loan" }
     ],
     tools: [
-      { label: "EMI Calculator", href: "../calculators/home-loan-emi-calculator" },
-      { label: "Buy vs Rent", href: "../calculators/buying-vs-renting-calculator" },
-      { label: "Compare Rates", href: "../interest-rates" }
+      { label: "EMI Calculator", href: "/calculators/home-loan-emi-calculator" },
+      { label: "Buy vs Rent", href: "/calculators/buying-vs-renting-calculator" },
+      { label: "Compare Rates", href: "/interest-rates" }
     ],
     byBank: [
-      { label: "Balance Transfer", href: "../loans/home-loan-balance-transfer" },
-      { label: "Interest Rates", href: "../interest-rates" },
-      { label: "EMI Calculators", href: "../calculators/home-loan-emi-calculator" }
+      { label: "Balance Transfer", href: "/loans/home-loan-balance-transfer" },
+      { label: "Interest Rates", href: "/interest-rates" },
+      { label: "EMI Calculators", href: "/calculators/home-loan-emi-calculator" }
     ],
     popularBanks: [
-      { label: "SBI", href: "../interest-rates/sbi" },
-      { label: "HDFC", href: "../interest-rates/hdfc" },
-      { label: "ICICI", href: "../interest-rates/icici" },
-      { label: "Axis", href: "../interest-rates/axis" },
-      { label: "Kotak", href: "../interest-rates/kotak" },
-      { label: "PNB", href: "../interest-rates/pnb" }
+      { label: "SBI", href: "/interest-rates/sbi" },
+      { label: "HDFC", href: "/interest-rates/hdfc" },
+      { label: "ICICI", href: "/interest-rates/icici" },
+      { label: "Axis", href: "/interest-rates/axis" },
+      { label: "Kotak", href: "/interest-rates/kotak" },
+      { label: "PNB", href: "/interest-rates/pnb" }
     ]
   };
 
   const navItems = [
-    { label: "Credit Score", href: "../Credit-score" },
+    { label: "Credit Score", href: "/Credit-score" },
     { label: "Loans", href: "#", dropdown: true },
-    { label: "Credit Cards", href: "../Credit-cards" },
-    { label: "Digital Gold", href: "./Digital-gold" },
-    { label: "Blog", href: "../blog" },
-    { label: "About", href: "../about" },
-    { label: "Partner Program", href: "../partner-program" },
+    { label: "Credit Cards", href: "/Credit-cards" },
+    { label: "Digital Gold", href: "/Digital-gold" },
+    { label: "Blog", href: "/blog" },
+    { label: "About", href: "/about" },
+    { label: "Partner Program", href: "/partner-program" },
   ];
 
   const isActive = (href) => {
