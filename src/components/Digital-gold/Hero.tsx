@@ -13,7 +13,7 @@ const fadeRight = {
 
 export default function DigitalGoldHero() {
   return (
-    <section className="relative overflow-hidden bg-white py-28">
+    <section className="relative overflow-hidden bg-white py-12 md:py-28">
       {/* Background glows */}
       <motion.div
         animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.45, 0.3] }}

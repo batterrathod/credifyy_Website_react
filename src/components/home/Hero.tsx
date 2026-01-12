@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-white pt-32 pb-20">
+    <section className="relative overflow-hidden bg-white pt-12 md:pt-32 pb-12 md:pb-20">
       {/* Background blobs */}
       <div className="absolute -top-20 -left-20 w-72 h-72 bg-purple-200 rounded-full blur-3xl opacity-40" />
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-indigo-200 rounded-full blur-3xl opacity-40" />

@@ -4,7 +4,7 @@ export default function CTA() {
   return (
     <section className="relative overflow-hidden">
       {/* Gradient Background */}
-      <div className="bg-gradient-to-br from-orange-400 via-orange-500 to-orange-600 py-24 px-6">
+      <div className="bg-gradient-to-br from-orange-400 via-orange-500 to-orange-600 py-12 md:py-24 px-6">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}

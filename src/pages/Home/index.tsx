@@ -1,5 +1,3 @@
-import Header from "../../components/layout/Header";
-import Footer from "../../components/layout/Footer";
 import Hero from "../../components/home/Hero";
 import TrustStats from "../../components/home/TrustStats";
 import Partners from "../../components/home/Partners";
@@ -11,10 +9,11 @@ import Comparison from "../../components/home/Comparison";
 import FAQ from "../../components/home/FAQ";
 import CTA from "../../components/home/CTA";
 import { Helmet } from "react-helmet-async"; // Import Helmet for meta tags
+import Layout from "../../components/layout/Layout";
 
 export default function HomePage() {
   return (
-    <div className="bg-white overflow-x-hidden">
+    <Layout>
       {/* SEO Meta Tags */}
       <Helmet>
 
@@ -95,22 +94,16 @@ export default function HomePage() {
         </script>
       </Helmet>
 
-      <Header />
-
-      <main className="pt-20">
-        <Hero />
-        <TrustStats />
-        <Partners />
-        <Services />
-        <Process />
-        <Testimonials />
-        <About />
-        <Comparison />
-        <FAQ />
-        <CTA />
-      </main>
-
-      <Footer />     
-    </div>
+      <Hero />
+      <TrustStats />
+      <Partners />
+      <Services />
+      <Process />
+      <Testimonials />
+      <About />
+      <Comparison />
+      <FAQ />
+      <CTA />
+    </Layout>
   );
 }

@@ -28,7 +28,7 @@ export default function FAQ() {
   const [active, setActive] = useState<number | null>(null);
 
   return (
-    <section className="bg-white py-28">
+    <section className="bg-white py-12 md:py-28">
       <div className="max-w-4xl mx-auto px-6">
 
         {/* Badge */}

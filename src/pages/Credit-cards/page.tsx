@@ -1,5 +1,3 @@
-import Header from "../../components/layout/Header";
-import Footer from "../../components/layout/Footer";
 import Hero from "../../components/Credit-cards/Hero";
 import TrustStats from "../../components/Credit-cards/TrustStats";
 import Partners from "../../components/Credit-cards/Partners";
@@ -9,10 +7,11 @@ import SecurityCompliance from "../../components/Credit-cards/SecurityCompliance
 import FAQ from "../../components/Credit-cards/FAQ";
 import CTA from "../../components/Credit-cards/CTA";
 import { Helmet } from "react-helmet-async"; // Import Helmet for meta tags
+import Layout from "../../components/layout/Layout";
 
 export default function HomePage() {
   return (
-    <div className="bg-white overflow-x-hidden">
+    <Layout>
       {/* SEO Meta Tags */}
       <Helmet>
         <title>Rupy.Money - Best Home Loans & Personal Loans in India</title>
@@ -91,20 +90,14 @@ export default function HomePage() {
         </script>
       </Helmet>
 
-      <Header />
-
-      <main className="pt-20">
-        <Hero />
-        <TrustStats />
-        <Partners />
-        <Services />
-        <Process />
-        <SecurityCompliance />
-        <FAQ />
-        <CTA />
-      </main>
-
-      <Footer />
-    </div>
+      <Hero />
+      <TrustStats />
+      <Partners />
+      <Services />
+      <Process />
+      <SecurityCompliance />
+      <FAQ />
+      <CTA />
+    </Layout>
   );
 }

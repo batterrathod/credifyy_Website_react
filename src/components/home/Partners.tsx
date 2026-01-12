@@ -29,7 +29,7 @@ const logos = [
 
 export default function Partners() {
   return (
-    <section className="bg-white py-24 overflow-hidden">
+    <section className="bg-white py-12 md:py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Badge */}
