@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Header from "../../components/layout/Header";
 import Footer from "../../components/layout/Footer";
 import CTA from "../../components/Blog/CTA";
+import SEO from "../../components/SEO";
 
 type Blog = {
   id: number;
@@ -43,8 +44,14 @@ export default function BlogPage() {
         blog.excerpt.toLowerCase().includes(search.toLowerCase())
     );
 
+
+
   return (
     <div className="bg-white overflow-x-hidden">
+      <SEO 
+        title="Financial Insights & Blogs - Rupy.Money" 
+        description="Latest articles, guides, and tips on personal finance, loans, credit cards, and credit scores."
+      />
       <Header />
 
       <main className="pt-28">

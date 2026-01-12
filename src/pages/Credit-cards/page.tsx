@@ -8,7 +8,7 @@ import Process from "../../components/Credit-cards/Process";
 import SecurityCompliance from "../../components/Credit-cards/SecurityCompliance";
 import FAQ from "../../components/Credit-cards/FAQ";
 import CTA from "../../components/Credit-cards/CTA";
-import { Helmet } from "react-helmet"; // Import Helmet for meta tags
+import { Helmet } from "react-helmet-async"; // Import Helmet for meta tags
 
 export default function HomePage() {
   return (

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Header from "../../components/layout/Header";
 import Footer from "../../components/layout/Footer";
 import CTA from "../../components/Blog/CTA";
+import SEO from "../../components/SEO";
 
 type Blog = {
   title: string;
@@ -28,8 +29,14 @@ export default function BlogDetailPage() {
 
   if (!blog) return null;
 
+
+
   return (
     <div className="bg-white overflow-x-hidden">
+      <SEO 
+        title={`${blog.title} - Rupy.Money`} 
+        description={blog.excerpt}
+      />
       <Header />
 
       {/* ================= BLOG CONTENT STYLES ================= */}

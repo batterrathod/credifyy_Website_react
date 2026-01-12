@@ -284,13 +284,13 @@ export default function Header() {
         <div className="relative flex items-center h-20 px-4 md:px-10">
           {/* LOGO */}
           <motion.a
-            href=".."
+            href="/"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
             className="flex-shrink-0"
           >
             <img
-              src="../public/Rupy.Money.png"
+              src="/logo.png"
               alt="Credifyy"
               className="h-7 w-auto md:h-8"
             />

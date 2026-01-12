@@ -10,7 +10,7 @@ import About from "../../components/home/About";
 import Comparison from "../../components/home/Comparison";
 import FAQ from "../../components/home/FAQ";
 import CTA from "../../components/home/CTA";
-import { Helmet } from "react-helmet"; // Import Helmet for meta tags
+import { Helmet } from "react-helmet-async"; // Import Helmet for meta tags
 
 export default function HomePage() {
   return (

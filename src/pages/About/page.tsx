@@ -10,10 +10,16 @@ import AdvisorsSection from "../../components/About/AdvisorsSection";
 import SecurityComplianceSection from "../../components/About/SecurityComplianceSection";   
 import JoinOurJourneyCTA from "../../components/About/JoinOurJourneyCTA";
 
+import SEO from "../../components/SEO";
+
 export default function AboutPage() {
     return (
 
         <div className="bg-white overflow-x-hidden">
+            <SEO 
+                title="About Us - Rupy.Money | Best Financial Marketplace" 
+                description="We are Rupy.Money, India's most trusted financial marketplace for loans, credit cards, and credit scores."
+            />
 
             <Header />
 

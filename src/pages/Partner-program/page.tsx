@@ -10,10 +10,16 @@ import PartnerSuccessStoriesSection from "../../components/Partner-program/Partn
 import FAQSection from "../../components/Partner-program/FAQSection";
 import EnterpriseCTASection from "../../components/Partner-program/EnterpriseCTASection";
 
+import SEO from "../../components/SEO";
+
 export default function A() {
   return (
     
     <div className="bg-white overflow-x-hidden">
+      <SEO 
+        title="Become a Partner - Rupy.Money Partner Program" 
+        description="Join the Rupy.Money Partner Program and earn high commissions by referring loans and credit cards. Zero investment required."
+      />
       
       <Header />
 
